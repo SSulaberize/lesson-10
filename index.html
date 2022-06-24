@@ -1,16 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <title>Zetta Hotels</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <div class="background">
+        <div class="header">
+          <a class="logo" href="#">zetta hotels</a>
+          <nav>
+            <ul>
+              <li><a class="nav home" href="#">home</a></li>
+              <li>
+                <a class="nav" href="#">rooms</a
+                ><i class="fa-solid fa-angle-down"></i>
+              </li>
+              <li><a class="nav" href="#">restaurants</a></li>
+              <li><a class="nav" href="#">about us</a></li>
+              <li><a class="nav" href="#">blog</a></li>
+              <li><a class="nav" href="index.html">contact</a></li>
+            </ul>
+          </nav>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="contact-box">
+          <h2 class="upper-header">contact</h2>
+          <div class="inner-box">
+            <a class="contact-box-span" href="#">home</a>
+            <a class="contact-box-span-1" href="index.html">contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.1115690695988!2d-80.83499189999999!3d35.2285926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a022d78b3de7%3A0x9f5c6731be8cbf86!2sUNC%20Charlotte%20Center%20City!5e0!3m2!1sen!2sge!4v1656070255042!5m2!1sen!2sge"
+        width="1088"
+        height="286"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <section>
+      <div class="contact-form">
+        <span>contact</span>
+        <h2 class="lower-header">Contact us to get free support</h2>
+        <div class="wrap">
+          <textarea
+            name="description"
+            id="description"
+            class="text-area"
+            placeholder="description"
+          ></textarea>
+          <div class="form-wrap">
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              class="area"
+              placeholder="subject"
+            />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="area"
+              placeholder="name/surname"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="area"
+              placeholder="email"
+            />
+            <button class="button" type="submit">
+              send<i class="fa-regular fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

@@ -1,0 +1,40 @@
+@media (max-width: 948px){
+    nav{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+}
+@media (max-width: 485px){
+    .header{
+        padding-left: 100px;
+    }
+    .contact-box{
+        left: 100px
+    }
+}
+@media (max-width: 447px){
+    .header{
+        padding-left: 75px;
+    }
+    .contact-box{
+        left: 75px
+    }
+}
+@media (max-width: 420px){
+    .header{
+        padding-left: 50px;
+    }
+    .contact-box{
+        left: 50px
+    }
+}
+@media (max-width: 392px){
+    .header{
+        padding-left: 25px;
+    }
+    .contact-box{
+        left: 25px
+    }
+}

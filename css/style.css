@@ -1,0 +1,142 @@
+/* Main Elements */
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 567px;
+}
+span{
+    font-family: 'Poppins-Bold';
+    color: #5863F8;
+    text-transform: uppercase;
+}
+h2{
+    font-family: 'Poppins-ExtraBold';
+    font-size: 42px;
+}
+/* Header */
+.nav{
+    font-family: 'Poppins-SemiBold';
+    color: #fff;
+    text-transform: uppercase;
+}
+.home{
+    font-family: 'Poppins-SemiBold';
+    color: #5863F8;
+    text-transform: uppercase;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 139px 274px 139px;
+    align-items: center;
+}
+.background{
+    background-image: url('../images/top-image.jpg');
+    height: 325px;
+    background-size: cover;
+    position: relative;
+}
+.logo{font-family: 'Poppins-Bold';
+    color: #fff;
+    text-transform: capitalize;
+}
+.fa-angle-down{
+    color:#fff;
+    margin-left: 5.5px;
+}
+.fa-bars{
+    color:#fff;
+    display: none;
+}
+.upper-header{
+    color: #fff;
+    text-transform: uppercase;
+}
+.contact-box-span{
+    font-family: 'Poppins';
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 14px;
+}
+.contact-box-span-1{
+    font-family: 'Poppins';
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 14px;
+}
+.contact-box{
+    position: absolute;
+    top: 146px;
+    left: 139px;
+}
+.inner-box{
+    position: absolute;
+    top: 56px;
+}
+.contact-box-span::after{
+    content: "";
+    height: 19px;
+    width: 1px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0px 16.5px 0px 14.5px;
+}
+/* Middle section*/
+.map{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.contact-form{
+    margin: 0 auto;
+    width: 1088px;
+    padding-top: 56px;
+}
+.lower-header{
+    max-width: 378px;
+    width: 100%;
+    margin-top: 10px;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+.text-area{
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    background-color: #F8F8F8;
+    resize: none;
+    margin-top: 70px;
+}
+.text-area::placeholder{
+    text-transform: capitalize;
+    color: #CECECE;
+    font-family: 'Poppins';
+}
+.area{
+    width: 352px;
+    height: 60px;
+    background-color: #F8F8F8;
+}
+.area::placeholder{
+    text-transform: capitalize;
+    color: #CECECE;
+    font-family: 'Poppins';
+}
+.button{
+    width: 352px;
+    height: 60px;
+    background-color: #5863F8;
+    font-family: 'Poppins';
+    color: #fff;
+    font-size: 14px;
+}
