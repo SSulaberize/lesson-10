@@ -51,15 +51,15 @@ nav {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
-  width: 567px;
+  max-width: 567px;
+  width: 100%;
+ 
 }
 .nav {
   font-family: "Poppins-SemiBold";
   color: #fff;
   text-transform: uppercase;
+  margin-left: 10px;
 }
 .home {
   font-family: "Poppins-SemiBold";
@@ -82,10 +82,9 @@ nav {
 .background {
   background-image: url("../images/top-image.jpg");
   height: 324px;
-  max-width: 1519px;
+  max-width: 1550px;
   width: 100%;
   background-size: cover;
-  position: relative;
 }
 .background::after {
   content: "";
@@ -130,6 +129,7 @@ nav {
   position: absolute;
   top: 146px;
   left: 139px;
+ 
 }
 .inner-box {
   position: absolute;
